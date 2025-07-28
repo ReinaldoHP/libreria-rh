@@ -1,0 +1,118 @@
+/* ------------------------------
+   TITULO
+------------------------------ */
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 24px;
+  color: #4909be;
+}
+
+/* ------------------------------
+   BOTÓN BASE
+------------------------------ */
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* ------------------------------
+   BOTONES SÓLIDOS
+------------------------------ */
+.btn-azul         { background-color: #007bff; color: white; }
+.btn-rojo         { background-color: #dc3545; color: white; }
+.btn-amarillo     { background-color: #ffc107; color: #000; }
+.btn-azul-cielo   { background-color: hwb(192 35% 8%); color: white; }
+.btn-verde        { background-color: #28a745; color: white; }
+.btn-gris         { background-color: #6c757d; color: white; }
+.btn-claro        { background-color: #f8f9fa; color: #000; }
+.btn-negro        { background-color: #343a40; color: white; }
+.btn-morado       { background-color: #6f42c1; color: white; }
+.btn-turquesa     { background-color: #20c997; color: white; }
+
+/* Hover para botones sólidos */
+.btn-azul:hover,
+.btn-rojo:hover,
+.btn-amarillo:hover,
+.btn-azul-cielo:hover,
+.btn-verde:hover,
+.btn-gris:hover,
+.btn-claro:hover,
+.btn-negro:hover,
+.btn-morado:hover,
+.btn-turquesa:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 5px #007bff, 0 0 15px #20c997, 0 0 25px #17a2b8;
+}
+
+/* ------------------------------
+   BOTONES DELINEADOS
+------------------------------ */
+[class^='btn-borde-'],
+[class*=' btn-borde-'] {
+  background-color: transparent;
+  border: 2px solid;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Colores delineados */
+.btn-borde-azul        { border-color: #0d6efd; color: #0d6efd; }
+.btn-borde-rojo        { border-color: #dc3545; color: #dc3545; }
+.btn-borde-amarillo    { border-color: #ffc107; color: #ffc107; }
+.btn-borde-azul-cielo  { border-color: #59ceeb; color: #59ceeb; }
+.btn-borde-verde       { border-color: #28a745; color: #28a745; }
+.btn-borde-gris        { border-color: #6c757d; color: #6c757d; }
+.btn-borde-negro       { border-color: #000000; color: #000000; }
+.btn-borde-naranja     { border-color: #fd7e14; color: #fd7e14; }
+.btn-borde-morado      { border-color: #6f42c1; color: #6f42c1; }
+.btn-borde-teal        { border-color: #20c997; color: #20c997; }
+.btn-borde-turquesa    { border-color: #20c997; color: #20c997; }
+
+/* Hover para botones delineados */
+[class^='btn-borde-']:hover,
+[class*=' btn-borde-']:hover {
+  transform: scale(1.08);
+  background-color: rgba(232, 248, 243, 0.1);
+  box-shadow: 0 0 8px #20c99799;
+}
+
+/* ------------------------------
+   BOTONES REDONDEADOS
+------------------------------ */
+.btn-redondeado {
+  border-radius: 9999px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn-redondeado-azul { background-color: #007bff; color: white; border-radius: 50px; }
+.btn-redondeado-rojo { background-color: #dc3545; color: white; border-radius: 50px; }
+.btn-redondeado-amarillo { background-color: #ffc107; color: black; border-radius: 50px; }
+.btn-redondeado-azul-cielo { background-color: #17a2b8; color: white; border-radius: 50px; }
+.btn-redondeado-verde { background-color: #28a745; border-radius: 50px; }
+.btn-redondeado-gris { background-color: #6c757d; color: white; border-radius: 50px; }
+.btn-redondeado-naranja { background-color: #fd7e14; border-radius: 50px; }
+.btn-redondeado-negro { background-color: #343a40; color: white;  border-radius: 50px; }
+.btn-redondeado-morado { background-color: #6f42c1; color: white; border-radius: 50px; }
+.btn-redondeado-turquesa { background-color: #20c997; color: black; border-radius: 50px; }
+
+/* Hover para botones redondeados */
+
+[class^='btn-redondeado-']:hover,
+[class*=' btn-redondeado-']:hover {
+  transform: scale(1.08);
+  
+  box-shadow: 0 0 25px rgba(20, 20, 20, 0.6);
+}
