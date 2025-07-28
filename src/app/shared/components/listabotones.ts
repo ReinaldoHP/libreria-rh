@@ -39,3 +39,17 @@ export const botonesRedondeados: BotonInterface[] = [
   { etiqueta: 'Turquesa', redondeado: false, color: 'btn-redondeado-turquesa' },
 ];
 
+export const botonesTextoElevado: BotonInterface[] = [
+  { etiqueta: 'Azul', color: 'btn-textoElevado-azul', textoElevado: true},
+  { etiqueta: 'Rojo', color: 'btn-textoElevado-rojo', textoElevado: true},
+  { etiqueta: 'Amarillo', color: 'btn-textoElevado-amarillo', textoElevado: true},
+  { etiqueta: 'Azul Cielo', color: 'btn-textoElevado-azul-cielo', textoElevado: true},
+  { etiqueta: 'Verde', color: 'btn-textoElevado-verde', textoElevado: true},
+  { etiqueta: 'Gris', color: 'btn-textoElevado-gris', textoElevado: true},
+  { etiqueta: 'Naranja', color: 'btn-textoElevado-naranja', textoElevado: true},
+  { etiqueta: 'Negro', color: 'btn-textoElevado-negro', textoElevado: true},
+  { etiqueta: 'Morado', color: 'btn-textoElevado-morado', textoElevado: true},
+  { etiqueta: 'Turquesa', color: 'btn-textoElevado-turquesa', textoElevado: true},
+
+]
+

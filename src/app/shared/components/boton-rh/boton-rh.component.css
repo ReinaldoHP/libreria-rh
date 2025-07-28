@@ -116,3 +116,39 @@ h2 {
   
   box-shadow: 0 0 25px rgba(20, 20, 20, 0.6);
 }
+
+/* ------------------------------
+   BOTONES ELEVADOS
+------------------------------ */
+
+
+.btn-textoElevado {
+  border-radius: 9999px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn-textoElevado-azul {color: #007bff;}
+.btn-textoElevado-rojo {color: #dc3545;}
+.btn-textoElevado-amarillo {color: #ffc107;}
+.btn-textoElevado-azul-cielo {color: #17a2b8;}
+.btn-textoElevado-verde {color: #28a745;}
+.btn-textoElevado-gris {color: #6c757d;}
+.btn-textoElevado-naranja {color: #fd7e14;}
+.btn-textoElevado-negro {color: #343a40;}
+.btn-textoElevado-morado {color: #6f42c1;}
+.btn-textoElevado-turquesa {color: #20c997;}
+
+/* Hover para botones redondeados */
+
+[class^='btn-textoElevado-']:hover,
+[class*=' btn-textoElevado-']:hover {
+  transform: scale(1.08);
+  
+  box-shadow: 0 0 25px rgba(20, 20, 20, 0.6);
+}
+

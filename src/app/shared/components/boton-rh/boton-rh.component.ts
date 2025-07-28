@@ -12,6 +12,7 @@ export class BotonRhComponent implements OnInit {
   @Input() etiqueta: string = 'Click';
   @Input() color: string = 'rojo';
   @Input() redondeado: boolean = false;
+  @Input() textoElevado: boolean = false;
 
   @Output() clicked = new EventEmitter<void>();
 
@@ -27,7 +28,10 @@ export class BotonRhComponent implements OnInit {
     clases.push(this.color);
 
     if (this.redondeado) {
-     // clases.push('btn-redondiado');
+    }
+
+    if (this.textoElevado){
+      
     }
 
     this.clasesBoton = clases;

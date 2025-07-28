@@ -1,6 +1,7 @@
 export interface BotonInterface {
   etiqueta: string;
   redondeado?: boolean;
+  textoElevado?:boolean;
   color:
   | 'btn-azul'
   | 'btn-rojo'
@@ -32,4 +33,14 @@ export interface BotonInterface {
   | 'btn-redondeado-negro'
   | 'btn-redondeado-morado' 
   | 'btn-redondeado-turquesa'
+  | 'btn-textoElevado-azul'
+  | 'btn-textoElevado-rojo'
+  | 'btn-textoElevado-amarillo'
+  | 'btn-textoElevado-azul-cielo'
+  | 'btn-textoElevado-verde'
+  | 'btn-textoElevado-gris'
+  | 'btn-textoElevado-naranja'
+  | 'btn-textoElevado-negro'
+  | 'btn-textoElevado-morado'
+  | 'btn-textoElevado-turquesa'
 }

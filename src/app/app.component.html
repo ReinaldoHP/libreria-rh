@@ -31,3 +31,15 @@
   ></boton-rh>
 </form>
 
+<h2>Botones de Texto Elevado</h2>
+<form class="botones-form">
+  <boton-rh
+    *ngFor="let btn of botonesTextoElevado"
+    [etiqueta]="btn.etiqueta"
+    [color]="btn.color"
+    [textoElevado]="true"
+    (clicked)="ejecutarAccion(btn.etiqueta)"
+  ></boton-rh>
+</form>
+
+
