@@ -11,6 +11,8 @@ export const botones: BotonInterface[] = [
   { etiqueta: 'Negro', color: 'btn-negro' },
   { etiqueta: 'Morado', color: 'btn-morado' },
   { etiqueta: 'Turquesa', color: 'btn-turquesa' },
+  { etiqueta: 'Dorado', color: 'btn-dorado' },
+
 ];
 
 export const botonesDelineados: BotonInterface[] = [
@@ -52,4 +54,49 @@ export const botonesTextoElevado: BotonInterface[] = [
   { etiqueta: 'Turquesa', color: 'btn-textoElevado-turquesa', textoElevado: true},
 
 ]
+
+export const botonesSoloIcono: BotonInterface[] = [
+  { etiqueta: '', icono: 'pi pi-home', color: 'btn-azul', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-user', color: 'btn-rojo', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-cog', color: 'btn-verde', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-bell', color: 'btn-amarillo', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-search', color: 'btn-morado', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-calendar', color: 'btn-gris', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-envelope', color: 'btn-claro', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-star', color: 'btn-turquesa', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-trash', color: 'btn-negro', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-power-off', color: 'btn-azul-cielo', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-camera', color: 'btn-verde', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-globe', color: 'btn-rojo', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-map', color: 'btn-amarillo', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-clock', color: 'btn-azul', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-heart', color: 'btn-morado', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-lock', color: 'btn-gris', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-unlock', color: 'btn-claro', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-key', color: 'btn-negro', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-download', color: 'btn-turquesa', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-upload', color: 'btn-azul-cielo', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-refresh', color: 'btn-verde', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-sync', color: 'btn-rojo', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-check', color: 'btn-amarillo', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-times', color: 'btn-morado', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-plus', color: 'btn-gris', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-minus', color: 'btn-negro', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-upload', color: 'btn-claro', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-download', color: 'btn-turquesa', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-pencil', color: 'btn-azul-cielo', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-eye', color: 'btn-azul', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-eye-slash', color: 'btn-rojo', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-chart-line', color: 'btn-verde', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-chart-pie', color: 'btn-amarillo', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-folder', color: 'btn-morado', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-file', color: 'btn-gris', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-tags', color: 'btn-claro', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-comments', color: 'btn-negro', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-book', color: 'btn-turquesa', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-phone', color: 'btn-azul-cielo', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-wifi', color: 'btn-azul', soloIcono: true },
+];
+
+
 

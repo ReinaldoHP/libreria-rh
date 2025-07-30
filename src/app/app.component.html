@@ -5,7 +5,7 @@
     *ngFor="let btn of botones"
     [etiqueta]="btn.etiqueta"
     [color]="btn.color"
-    (clicked)="ejecutarAccion(btn.etiqueta)"
+    (click)="ejecutarAccion(btn.etiqueta)"
   >
   </boton-rh>
 </form>
@@ -16,7 +16,7 @@
     *ngFor="let btn of botonesDelineados"
     [etiqueta]="btn.etiqueta"
     [color]="btn.color"
-    (clicked)="ejecutarAccion(btn.etiqueta)"
+    (click)="ejecutarAccion(btn.etiqueta)"
   ></boton-rh>
 </form>
 
@@ -27,7 +27,7 @@
     [etiqueta]="btn.etiqueta"
     [color]="btn.color"
     [redondeado]="true"
-    (clicked)="ejecutarAccion(btn.etiqueta)"
+    (click)="ejecutarAccion(btn.etiqueta)"
   ></boton-rh>
 </form>
 
@@ -38,8 +38,20 @@
     [etiqueta]="btn.etiqueta"
     [color]="btn.color"
     [textoElevado]="true"
-    (clicked)="ejecutarAccion(btn.etiqueta)"
+    (click)="ejecutarAccion(btn.etiqueta)"
   ></boton-rh>
 </form>
+
+<h2>Botones Solo Icono</h2>
+<form class="botones-form">
+  <boton-rh
+    *ngFor="let btn of botonesSoloIcono"
+    [color]="btn.color"
+    [soloIcono]="true"
+    [icono]="btn.icono"
+    (click)="ejecutarAccion(btn.icono || 'icono')"
+  ></boton-rh>
+</form>
+
 
 

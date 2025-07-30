@@ -13,14 +13,14 @@ export class BotonRhComponent implements OnInit {
   @Input() color: string = 'rojo';
   @Input() redondeado: boolean = false;
   @Input() textoElevado: boolean = false;
+  @Input() soloIcono?: boolean = false;
+  @Input() icono?: string;
 
-  @Output() clicked = new EventEmitter<void>();
+
 
   clasesBoton: string[] = []
 
-  onClick() {
-    this.clicked.emit();
-  }
+  
 
   ngOnInit() {
     const clases = ['btn'];
@@ -31,6 +31,10 @@ export class BotonRhComponent implements OnInit {
     }
 
     if (this.textoElevado){
+      
+    }
+
+    if (this.soloIcono) {
       
     }
 

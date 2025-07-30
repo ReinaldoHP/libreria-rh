@@ -33,6 +33,16 @@ h2 {
 .btn-negro        { background-color: #343a40; color: white; }
 .btn-morado       { background-color: #6f42c1; color: white; }
 .btn-turquesa     { background-color: #20c997; color: white; }
+.btn-dorado {
+  background: linear-gradient(45deg, #FFD700, #fcf3d4, #FFB700);
+  color: #000;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(248, 224, 7, 0.795);
+  transition: transform 0.2s, box-shadow 0.2s;}
 
 /* Hover para botones sólidos */
 .btn-azul:hover,
@@ -47,6 +57,10 @@ h2 {
 .btn-turquesa:hover {
   transform: scale(1.08);
   box-shadow: 0 0 5px #007bff, 0 0 15px #20c997, 0 0 25px #17a2b8;
+}
+.btn-dorado:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(216, 240, 3, 0.459);
 }
 
 /* ------------------------------
@@ -151,4 +165,49 @@ h2 {
   
   box-shadow: 0 0 25px rgba(20, 20, 20, 0.6);
 }
+
+/* solo iconos*/
+
+/* ------------------------------
+   BOTÓN SOLO ICONO
+------------------------------ */
+.btn-solo-icono {
+  padding: 0.5rem;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 6px;
+  background-color: #4909be;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-solo-icono:hover {
+  background-color: #37078e;
+  transform: scale(1.05);
+}
+
+button i {
+  font-size: 1.2rem;
+  vertical-align: middle;
+}
+
+button span {
+  margin-left: 0.5rem;
+}
+
+.btn-solo-icono {
+  padding: 0.5rem;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+}
+
+
+
 

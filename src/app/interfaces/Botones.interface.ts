@@ -2,6 +2,8 @@ export interface BotonInterface {
   etiqueta: string;
   redondeado?: boolean;
   textoElevado?:boolean;
+  soloIcono?: boolean;
+  icono?: string;
   color:
   | 'btn-azul'
   | 'btn-rojo'
@@ -13,6 +15,7 @@ export interface BotonInterface {
   | 'btn-negro'
   | 'btn-morado'
   | 'btn-turquesa'
+  | 'btn-dorado'
   | 'btn-borde-azul'
   | 'btn-borde-rojo'
   | 'btn-borde-amarillo'

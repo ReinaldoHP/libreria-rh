@@ -1,3 +1,6 @@
-<button type="button" [ngClass]="clasesBoton" (click)="onClick()">
-  {{ etiqueta }}
+<button [ngClass]="clasesBoton">
+  <i *ngIf="icono" [class]="icono"></i>
+  <span *ngIf="!soloIcono">{{ etiqueta }}</span>
 </button>
+
+

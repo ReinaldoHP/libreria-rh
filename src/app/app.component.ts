@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { BotonRhComponent } from './shared/components/boton-rh/boton-rh.component';
-import { botones, botonesDelineados, botonesRedondeados, botonesTextoElevado } from './shared/components/listabotones';
+import { botones, botonesDelineados, botonesRedondeados, botonesSoloIcono, botonesTextoElevado } from './shared/components/listabotones';
 import { CommonModule } from '@angular/common';
 import { BotonInterface } from './interfaces/Botones.interface';
 
@@ -18,6 +18,8 @@ export class AppComponent {
   botonesDelineados: BotonInterface[] = botonesDelineados;
   botoneredondeado: BotonInterface[] = botonesRedondeados;
   botonesTextoElevado: BotonInterface[] = botonesTextoElevado;
+  botonesSoloIcono: BotonInterface[] = botonesSoloIcono;
+
 
 
   ejecutarAccion(etiqueta: string) {
