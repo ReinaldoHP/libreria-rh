@@ -95,7 +95,7 @@ export const botonesSoloIcono: BotonInterface[] = [
   { etiqueta: '', icono: 'pi pi-comments', color: 'btn-negro', soloIcono: true },
   { etiqueta: '', icono: 'pi pi-book', color: 'btn-turquesa', soloIcono: true },
   { etiqueta: '', icono: 'pi pi-phone', color: 'btn-azul-cielo', soloIcono: true },
-  { etiqueta: '', icono: 'pi pi-wifi', color: 'btn-azul', soloIcono: true },
+  { etiqueta: '', icono: 'pi pi-wifi', color: 'btn-dorado', soloIcono: true },
 ];
 
 

@@ -5,3 +5,16 @@
   /* Espacio entre botones */
   align-items: center;
 }
+
+/* ------------------------------
+   TITULO
+------------------------------ */
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 24px;
+  color: #8f7e1f; 
+  font-weight: bold;
+}
+
+

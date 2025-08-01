@@ -1,5 +1,5 @@
 <router-outlet />
-<h2>Botones Normal</h2>
+<h2 >Botones Normal</h2>
 <form (ngSubmit)="onSubmit()" class="botones-form">
   <boton-rh
     *ngFor="let btn of botones"
@@ -52,6 +52,27 @@
     (click)="ejecutarAccion(btn.icono || 'icono')"
   ></boton-rh>
 </form>
+
+
+<h2>Input Basico</h2>
+<div >
+  <input-rh 
+    [etiqueta]="'Nombre'"
+    [tipo]="'text'"
+    [control]="miFormulario"
+    [marcador]="'Ingrese su nombre'"
+  ></input-rh>
+
+  <input-rh 
+    [etiqueta]="'Apellido'"
+    [tipo]="'text'"
+    [control]="miFormulario"
+    [marcador]="'Ingrese su apellido'"
+  ></input-rh>
+</div>
+
+
+
 
 
 
